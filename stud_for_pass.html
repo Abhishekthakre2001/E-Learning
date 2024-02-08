@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+  body{
+    background-image: url("./image/pic4.jpg");
+}
+.container {
+    margin-top: 100px;
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 20px;
+  border: 1px solid #7f7b7b;
+  border-radius: 5px;
+  background-color: wheat;
+}
+.container h2 {
+  text-align: center;
+}
+.container input[type="submit"] {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+input {
+  display:flex;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.container input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  
+}
+.container input[type="submit"]:hover {
+  background-color: #45a049;
+}
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+
+
+    </style>
+</head>
+<body>
+  <div class="container">
+    <h1>FORGAT PASSWORD</h1>
+    <form method="POST" action="stud_for_pass.php">
+      <input type="email" id="email" name="E_mail" placeholder="Enter your email" required>
+      <input type="submit" value="submit">
+    </form>
+  </div>
+</body>
+</html>
+
+
